@@ -1,6 +1,6 @@
 function init(){
 
-    function click(inp){
+    function click(){
       var inp = document.getElementById('entryinput').value;
       var out = document.getElementById('textoutput');
       out.innerHTML = inp;
@@ -9,5 +9,5 @@ function init(){
     document.getElementById("entrybutton").addEventListener("click", click);
   }
 
-  
+
   window.addEventListener('load', init);
